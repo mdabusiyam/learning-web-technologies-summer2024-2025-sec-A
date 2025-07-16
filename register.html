@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration</title>
+</head>
+<body>
+
+<h1 align="center">Register</h1>
+<form>
+
+<label>Name: </label><input type="textbox" placeholder="Enter Your Name"/>
+<br>
+<label>Email: </label><input type="email" placeholder="Enter Your Email"/>
+<br>
+<label>Phone: </label><input type="tel" placeholder="Enter Your Phone Number"/>
+<br>
+<label>Password: </label><input type="password" placeholder="Enter Your Password"/>
+<br>
+<label>Birthday: </label><input type="date"/>
+<br>
+<label>Age: </label><input type="number" placeholder="Enter Your Age"/>
+<br>
+<label>Sex: <br></label>
+<input type="radio" name="sex"/><label>Male</label>
+<input type="radio" name="sex"/><label>Female</label>
+<input type="radio" name="sex"/><label>Other</label>
+<br>
+<label>Profile Picture: </label><input type="file"/>
+<br>
+<label>Bio:</label>
+<textarea placeholder="Enter Your Short Biography"></textarea>
+<br>
+<label>Course(s): <br></label>
+<input type="checkbox" name="course"/><label>CPP</label>
+<input type="checkbox" name="course"/><label>Java</label>
+<input type="checkbox" name="course"/><label>Web Tech</label>
+<br>
+<label>Experience: </label><input type="range" min="0" max="100"/>
+<br>
+<label for="cars">Payment Option:</label>
+<select name="cars" id="cars">
+  <option value="volvo">Two Installments</option>
+  <option value="saab">Three Installments</option>
+  <option value="mercedes">Full</option>
+</select>
+<br>
+<input type="submit" value="Submit"/>
+<input type="reset" value="Reset"/>
+</form>
+</body>
+</html>
